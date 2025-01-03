@@ -3,6 +3,8 @@ import time
 
 led = LED(17)
 
+led.off()
+time.sleep(3)
 led.on()
-time.sleep(10)
+time.sleep(4)
 led.off()
