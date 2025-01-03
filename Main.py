@@ -1,6 +1,8 @@
 from gpiozero import LED
+import time
+
 led = LED(17)
 
 led.on()
-delay(1000)
+time.sleep(1000)
 led.off()
