@@ -4,5 +4,5 @@ import time
 led = LED(17)
 
 led.on()
-time.sleep(1000)
+time.sleep(10)
 led.off()
